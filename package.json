@@ -1,0 +1,14 @@
+{
+  "name": "edocs-jekyll-template",
+  "version": "1.0.0",
+  "description": "Template Project for Eurus Docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "simon.zg",
+  "license": "ISC",
+  "dependencies": {
+    "edocs-utils": "^1.0.0"
+  }
+}
