@@ -118,12 +118,12 @@ java -jar myproject-0.0.1.jar
 
 右键点击工程名 > Run As > Spring Boot (至少以Spring Boot的方式启动一次).
 
-然后，再次右键点击工程名 > Run As > Run Configurations… > Java Application > <project_name> > Arguments
+然后，再次右键点击工程名 > Run As > Run Configurations… > Spring Boot App > <project_name> > Arguments
 
 在**VM Arguments**中贴入一段：
 
 ```bash
- -javaagent:/<path-to>/springloaded-1.2.0.RELEASE.jar -noverify
+ -javaagent:/<path-to>/springloaded-1.2.6.RELEASE.jar -noverify
 ```
 
 ### Maven 配置
